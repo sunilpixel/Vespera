@@ -6,21 +6,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "plates": "node scripts/build-plates.mjs",
+    "plates:contact": "node scripts/build-plates.mjs --contact",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "next": "16.3.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.26",
+    "next": "^15.5.23",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.3.0",
+    "eslint-config-next": "^15.5.23",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

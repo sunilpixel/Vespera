@@ -1,0 +1,74 @@
+{
+  "plates": [
+    {
+      "id": "atrium",
+      "origin": "atrium.jpg",
+      "held": null
+    },
+    {
+      "id": "veil",
+      "origin": "veil.jpg",
+      "held": null
+    },
+    {
+      "id": "flacon",
+      "origin": "flacon.jpg",
+      "held": null
+    },
+    {
+      "id": "colonnade",
+      "origin": "stair.jpg",
+      "held": null
+    },
+    {
+      "id": "monolith",
+      "origin": "monolith.jpg",
+      "held": null
+    },
+    {
+      "id": "stair",
+      "origin": "colonnade.jpg",
+      "held": null
+    },
+    {
+      "id": "sphere",
+      "origin": "sphere.jpg",
+      "held": null
+    },
+    {
+      "id": "aperture",
+      "origin": "aperture.jpg",
+      "held": null
+    },
+    {
+      "id": "horizon",
+      "origin": "horizon.jpg",
+      "held": null
+    },
+    {
+      "id": "vessel",
+      "origin": "vessel.jpg",
+      "held": null
+    },
+    {
+      "id": "fold",
+      "origin": "fold.jpg",
+      "held": null
+    },
+    {
+      "id": "bottle-mineral",
+      "origin": "bottle-mineral.jpg",
+      "held": null
+    },
+    {
+      "id": "bottle-musk",
+      "origin": "bottle-musk.jpg",
+      "held": null
+    },
+    {
+      "id": "bottle-woods",
+      "origin": "bottle-woods.jpg",
+      "held": null
+    }
+  ]
+}

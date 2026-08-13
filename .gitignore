@@ -31,7 +31,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel
@@ -39,3 +38,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.claude
+
+# Local review scratch: contact sheets, a dumped page, the dev server's log and
+# port file. All of it is regenerated on demand (`npm run plates -- --contact`)
+# and none of it describes the project -- it describes one machine's last run.
+/.preview/
+
+# Rejected source photographs. Kept on disk so a decision can be revisited, but
+# they are candidates that lost, not masters: roughly 16 MB that every clone
+# would carry forever to hold pictures the site does not use. The Pexels id of
+# each one is recorded in assets/photos/README.md, so any of them is one
+# download away if a call needs reversing.
+assets/photos/*.rejected.jpg
+config.bat
